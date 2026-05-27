@@ -1,0 +1,108 @@
+default_velocity_scaling_factor: 0.5
+default_acceleration_scaling_factor: 0.5
+
+joint_limits:
+  left_arm_shoulder_pan:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  left_arm_shoulder_lift:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  left_arm_elbow_flex:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  left_arm_wrist_flex:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  left_arm_wrist_roll:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  left_arm_gripper:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: 0.0
+    max_position: 1.0
+  vertical_lift:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+    has_position_limits: true
+    min_position: 0.0
+    max_position: 0.25
+  right_arm_shoulder_pan:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  right_arm_shoulder_lift:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  right_arm_elbow_flex:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  right_arm_wrist_flex:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  right_arm_wrist_roll:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: -3.14
+    max_position: 3.14
+  right_arm_gripper:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: true
+    max_acceleration: 10.0
+    has_position_limits: true
+    min_position: 0.0
+    max_position: 1.0

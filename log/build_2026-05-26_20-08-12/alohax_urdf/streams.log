@@ -1,0 +1,57 @@
+[0.025s] Invoking command in '/home/seeed/alohax_ws/build/alohax_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seeed/alohax_ws/build/alohax_urdf -- -j6 -l6
+[0.669s] Invoked command in '/home/seeed/alohax_ws/build/alohax_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/seeed/alohax_ws/build/alohax_urdf -- -j6 -l6
+[0.685s] Invoking command in '/home/seeed/alohax_ws/build/alohax_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seeed/alohax_ws/build/alohax_urdf
+[0.698s] -- Install configuration: ""
+[0.698s] -- Execute custom install script
+[0.700s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/AstraPlus.stl
+[0.700s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/base_body.dae
+[0.700s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/base_body.stl
+[0.701s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_base.STL
+[0.701s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link1.STL
+[0.702s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link2.STL
+[0.702s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link3.STL
+[0.702s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link4.STL
+[0.703s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link5.STL
+[0.704s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/left_link6.STL
+[0.704s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskog_basket.dae
+[0.704s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskog_basket.stl
+[0.705s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskogwheel1.dae
+[0.705s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskogwheel1.stl
+[0.705s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskogwheel2.dae
+[0.705s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/raskogwheel2.stl
+[0.705s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_base.STL
+[0.706s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link1.STL
+[0.706s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link2.STL
+[0.706s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link3.STL
+[0.707s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link4.STL
+[0.707s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link5.STL
+[0.707s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/right_link6.STL
+[0.707s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/vertical_link.STL
+[0.708s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/wheel1.STL
+[0.708s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//meshes/wheel2.STL
+[0.709s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//urdf/alohax (Copy).urdf
+[0.709s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//urdf/alohax.csv
+[0.710s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//urdf/alohax.urdf
+[0.710s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//textures/init.py
+[0.710s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//config/joint_names_Aloha.yaml
+[0.710s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//launch/display.launch
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//launch/display.launch.py
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//launch/gazebo.launch
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf//rviz/urdf.rviz
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/lib/alohax_urdf//marker_publisher.py
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/ament_index/resource_index/package_run_dependencies/alohax_urdf
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/ament_index/resource_index/parent_prefix_path/alohax_urdf
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/environment/ament_prefix_path.sh
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/environment/ament_prefix_path.dsv
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/environment/path.sh
+[0.711s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/environment/path.dsv
+[0.712s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/local_setup.bash
+[0.712s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/local_setup.sh
+[0.712s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/local_setup.zsh
+[0.712s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/local_setup.dsv
+[0.712s] -- Symlinking: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/package.dsv
+[0.726s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/ament_index/resource_index/packages/alohax_urdf
+[0.726s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/cmake/alohax_urdfConfig.cmake
+[0.726s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/cmake/alohax_urdfConfig-version.cmake
+[0.726s] -- Up-to-date symlink: /home/seeed/alohax_ws/install/alohax_urdf/share/alohax_urdf/package.xml
+[0.730s] Invoked command in '/home/seeed/alohax_ws/build/alohax_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/seeed/alohax_ws/build/alohax_urdf

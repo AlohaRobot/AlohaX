@@ -1,0 +1,1 @@
+/home/seeed/alohax_ws/src/alohax_moveit_config/launch/move_group.launch.py

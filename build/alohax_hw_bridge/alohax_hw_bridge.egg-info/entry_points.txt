@@ -1,0 +1,3 @@
+[console_scripts]
+alohax_bridge = alohax_hw_bridge.alohax_bridge:main
+

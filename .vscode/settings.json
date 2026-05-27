@@ -1,0 +1,8 @@
+{
+  
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreviewFromExplorer": false,
+  "workbench.editor.reuseTabs": false
+
+}

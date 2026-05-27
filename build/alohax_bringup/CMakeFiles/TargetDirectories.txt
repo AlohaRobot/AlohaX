@@ -1,0 +1,9 @@
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/uninstall.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/alohax_bringup_uninstall.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/test.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/edit_cache.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/rebuild_cache.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/list_install_components.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/install.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/install/local.dir
+/home/seeed/alohax_ws/build/alohax_bringup/CMakeFiles/install/strip.dir

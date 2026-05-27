@@ -1,0 +1,2 @@
+source;share/alohax_bringup/environment/ament_prefix_path.sh
+source;share/alohax_bringup/environment/path.sh

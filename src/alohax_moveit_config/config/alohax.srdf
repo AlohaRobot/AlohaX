@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="alohax">
+
+  <!-- 右臂规划组（5 DOF，不含 gripper） -->
+  <group name="right_arm">
+    <joint name="right_arm_shoulder_pan"/>
+    <joint name="right_arm_shoulder_lift"/>
+    <joint name="right_arm_elbow_flex"/>
+    <joint name="right_arm_wrist_flex"/>
+    <joint name="right_arm_wrist_roll"/>
+  </group>
+
+  <!-- 左臂规划组 -->
+  <group name="left_arm">
+    <joint name="left_arm_shoulder_pan"/>
+    <joint name="left_arm_shoulder_lift"/>
+    <joint name="left_arm_elbow_flex"/>
+    <joint name="left_arm_wrist_flex"/>
+    <joint name="left_arm_wrist_roll"/>
+    <joint name="vertical_lift"/>
+  </group>
+
+  <!-- 双臂联合组 -->
+  <group name="both_arms">
+    <group name="right_arm"/>
+    <group name="left_arm"/>
+  </group>
+
+  <!-- 全身规划组（双臂） -->
+  <group name="whole_body">
+    <group name="both_arms"/>
+  </group>
+
+  <!-- 右爪 -->
+  <group name="right_gripper">
+    <joint name="right_arm_gripper"/>
+  </group>
+
+  <!-- 左爪 -->
+  <group name="left_gripper">
+    <joint name="left_arm_gripper"/>
+  </group>
+
+  <!-- 移动基座（虚拟组，用于协调） -->
+  <group name="mobile_base">
+    <joint name="base_left_wheel"/>
+    <joint name="base_right_wheel"/>
+  </group>
+
+  <!-- home 姿态 -->
+  <group_state name="home" group="right_arm">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0"/>
+    <joint name="right_arm_elbow_flex"    value="0"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+  </group_state>
+  <group_state name="home" group="left_arm">
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0"/>
+    <joint name="left_arm_elbow_flex"    value="0"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="home" group="both_arms">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0"/>
+    <joint name="right_arm_elbow_flex"    value="0"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0"/>
+    <joint name="left_arm_elbow_flex"    value="0"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="home" group="whole_body">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0"/>
+    <joint name="right_arm_elbow_flex"    value="0"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0"/>
+    <joint name="left_arm_elbow_flex"    value="0"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+
+  <!-- ready 姿态（准备抓取） -->
+  <group_state name="ready" group="right_arm">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0.5"/>
+    <joint name="right_arm_elbow_flex"    value="-1.0"/>
+    <joint name="right_arm_wrist_flex"    value="-0.5"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+  </group_state>
+  <group_state name="ready" group="left_arm">
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0.5"/>
+    <joint name="left_arm_elbow_flex"    value="-1.0"/>
+    <joint name="left_arm_wrist_flex"    value="-0.5"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="ready" group="both_arms">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0.5"/>
+    <joint name="right_arm_elbow_flex"    value="-1.0"/>
+    <joint name="right_arm_wrist_flex"    value="-0.5"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0.5"/>
+    <joint name="left_arm_elbow_flex"    value="-1.0"/>
+    <joint name="left_arm_wrist_flex"    value="-0.5"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="ready" group="whole_body">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="0.5"/>
+    <joint name="right_arm_elbow_flex"    value="-1.0"/>
+    <joint name="right_arm_wrist_flex"    value="-0.5"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="0.5"/>
+    <joint name="left_arm_elbow_flex"    value="-1.0"/>
+    <joint name="left_arm_wrist_flex"    value="-0.5"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+
+  <!-- folded 姿态（折叠） -->
+  <group_state name="folded" group="right_arm">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="-1.5"/>
+    <joint name="right_arm_elbow_flex"    value="1.5"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+  </group_state>
+  <group_state name="folded" group="left_arm">
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="-1.5"/>
+    <joint name="left_arm_elbow_flex"    value="1.5"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="folded" group="both_arms">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="-1.5"/>
+    <joint name="right_arm_elbow_flex"    value="1.5"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="-1.5"/>
+    <joint name="left_arm_elbow_flex"    value="1.5"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+  <group_state name="folded" group="whole_body">
+    <joint name="right_arm_shoulder_pan"  value="0"/>
+    <joint name="right_arm_shoulder_lift" value="-1.5"/>
+    <joint name="right_arm_elbow_flex"    value="1.5"/>
+    <joint name="right_arm_wrist_flex"    value="0"/>
+    <joint name="right_arm_wrist_roll"    value="0"/>
+    <joint name="left_arm_shoulder_pan"  value="0"/>
+    <joint name="left_arm_shoulder_lift" value="-1.5"/>
+    <joint name="left_arm_elbow_flex"    value="1.5"/>
+    <joint name="left_arm_wrist_flex"    value="0"/>
+    <joint name="left_arm_wrist_roll"    value="0"/>
+    <joint name="vertical_lift"          value="0"/>
+  </group_state>
+
+  <!-- current URDF adjacent collision disables -->
+  <disable_collisions link1="base_body" link2="raskog_basket" reason="Adjacent"/>
+  <disable_collisions link1="raskog_basket" link2="wheel1" reason="Adjacent"/>
+  <disable_collisions link1="raskog_basket" link2="wheel2" reason="Adjacent"/>
+  <disable_collisions link1="raskog_basket" link2="raskogwheel1" reason="Adjacent"/>
+  <disable_collisions link1="raskog_basket" link2="raskogwheel2" reason="Adjacent"/>
+  <disable_collisions link1="raskogwheel1" link2="raskogwheel2" reason="Adjacent"/>  
+  <disable_collisions link1="base_body" link2="vertical_link" reason="Adjacent"/>
+  <disable_collisions link1="vertical_link" link2="left_base" reason="Adjacent"/>
+  <disable_collisions link1="left_base" link2="left_link1" reason="Adjacent"/>
+  <disable_collisions link1="left_link1" link2="left_link2" reason="Adjacent"/>
+  <disable_collisions link1="left_link2" link2="left_link3" reason="Adjacent"/>
+  <disable_collisions link1="left_link3" link2="left_link4" reason="Adjacent"/>
+  <disable_collisions link1="left_link4" link2="left_link5" reason="Adjacent"/>
+  <disable_collisions link1="left_link5" link2="left_link6" reason="Adjacent"/>
+  <disable_collisions link1="vertical_link" link2="right_base" reason="Adjacent"/>
+  <disable_collisions link1="right_base" link2="right_link1" reason="Adjacent"/>
+  <disable_collisions link1="right_link1" link2="right_link2" reason="Adjacent"/>
+  <disable_collisions link1="right_link2" link2="right_link3" reason="Adjacent"/>
+  <disable_collisions link1="right_link3" link2="right_link4" reason="Adjacent"/>
+  <disable_collisions link1="right_link4" link2="right_link5" reason="Adjacent"/>
+  <disable_collisions link1="right_link5" link2="right_link6" reason="Adjacent"/>
+
+</robot>

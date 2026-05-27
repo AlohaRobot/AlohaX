@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing alohax_hw_bridge.egg-info/PKG-INFO
+writing dependency_links to alohax_hw_bridge.egg-info/dependency_links.txt
+writing entry points to alohax_hw_bridge.egg-info/entry_points.txt
+writing requirements to alohax_hw_bridge.egg-info/requires.txt
+writing top-level names to alohax_hw_bridge.egg-info/top_level.txt
+reading manifest file 'alohax_hw_bridge.egg-info/SOURCES.txt'
+writing manifest file 'alohax_hw_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/seeed/alohax_ws/install/alohax_hw_bridge/lib/python3.10/site-packages/alohax-hw-bridge.egg-link (link to .)
+Installing alohax_bridge script to /home/seeed/alohax_ws/install/alohax_hw_bridge/lib/alohax_hw_bridge
+
+Installed /home/seeed/alohax_ws/build/alohax_hw_bridge
+running symlink_data

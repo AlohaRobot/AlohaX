@@ -1,0 +1,1 @@
+/home/seeed/alohax_ws/build/alohax_moveit_config/ament_cmake_core/alohax_moveit_configConfig-version.cmake

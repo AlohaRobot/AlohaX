@@ -1,0 +1,96 @@
+# AlohaX 整机标定文件
+# bus1: 左臂(ID1-6) + 驱动轮(ID7-8) + 升降(ID11)
+# bus2: 右臂(ID1-6)
+# zero_position: 该关节在实物 home 姿态时的 Present_Position 原始值。
+#                对角度关节，它独立决定 RViz/控制里的 0 度；range_min/max 只用于运动范围。
+
+# ── bus1: 左臂 ────────────────────────────────────────────────────────────
+left_arm_shoulder_pan:
+  homing_offset: -1553
+  zero_position: 2047
+  range_min: 745
+  range_max: 3424
+
+left_arm_shoulder_lift:
+  homing_offset: -1947
+  zero_position: 2047
+  range_min: 740
+  range_max: 3370
+
+left_arm_elbow_flex:
+  homing_offset: 1168
+  zero_position: 2047
+  range_min: 2000
+  range_max: 4000
+
+left_arm_wrist_flex:
+  homing_offset: -1826
+  zero_position: 2047
+  range_min: 588
+  range_max: 2917
+
+left_arm_wrist_roll:
+  homing_offset: 1000
+  zero_position: 1000
+  range_min: 0
+  range_max: 2048
+
+left_arm_gripper:
+  homing_offset: 1538
+  range_min: 2048
+  range_max: 3396
+
+# ── bus1: 垂直升降 ────────────────────────────────────────────────────────
+vertical_lift:
+  homing_offset: 0
+  zero_position: 2000
+  range_min: 0
+  range_max: 2021
+
+
+# ── bus1: 底盘驱动轮（速度模式）───────────────────────────────────────────
+base_left_wheel:
+  homing_offset: 0
+  range_min: 0
+  range_max: 4095
+
+base_right_wheel:
+  homing_offset: 0
+  range_min: 0
+  range_max: 4095
+
+# ── bus2: 右臂 ────────────────────────────────────────────────────────────
+right_arm_shoulder_pan:
+  homing_offset: 841
+  zero_position: 2047
+  range_min: 745
+  range_max: 3424
+
+right_arm_shoulder_lift:
+  homing_offset: 1774
+  zero_position: 2047
+  range_min: 740
+  range_max: 3370
+
+right_arm_elbow_flex:
+  homing_offset: 1200
+  zero_position: 2047
+  range_min: 2000
+  range_max: 4000
+
+right_arm_wrist_flex:
+  homing_offset: -1920
+  zero_position: 2047
+  range_min: 588
+  range_max: 2917
+
+right_arm_wrist_roll:
+  homing_offset: 1000
+  zero_position: 1000
+  range_min: 0
+  range_max: 2048
+
+right_arm_gripper:
+  homing_offset: -1736
+  range_min: 2048
+  range_max: 3396

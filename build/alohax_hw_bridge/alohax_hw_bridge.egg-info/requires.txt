@@ -1,0 +1,4 @@
+deepdiff
+pyserial
+setuptools
+tqdm

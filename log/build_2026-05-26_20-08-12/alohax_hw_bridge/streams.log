@@ -1,0 +1,17 @@
+[1.509s] Invoking command in '/home/seeed/alohax_ws/build/alohax_hw_bridge': PYTHONPATH=/home/seeed/alohax_ws/build/alohax_hw_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seeed/alohax_ws/install/alohax_hw_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seeed/alohax_ws/build/alohax_hw_bridge/build --no-deps symlink_data
+[2.126s] running develop
+[2.653s] running egg_info
+[2.653s] writing alohax_hw_bridge.egg-info/PKG-INFO
+[2.654s] writing dependency_links to alohax_hw_bridge.egg-info/dependency_links.txt
+[2.654s] writing entry points to alohax_hw_bridge.egg-info/entry_points.txt
+[2.654s] writing requirements to alohax_hw_bridge.egg-info/requires.txt
+[2.654s] writing top-level names to alohax_hw_bridge.egg-info/top_level.txt
+[2.659s] reading manifest file 'alohax_hw_bridge.egg-info/SOURCES.txt'
+[2.661s] writing manifest file 'alohax_hw_bridge.egg-info/SOURCES.txt'
+[2.664s] running build_ext
+[2.664s] Creating /home/seeed/alohax_ws/install/alohax_hw_bridge/lib/python3.10/site-packages/alohax-hw-bridge.egg-link (link to .)
+[2.666s] Installing alohax_bridge script to /home/seeed/alohax_ws/install/alohax_hw_bridge/lib/alohax_hw_bridge
+[2.666s] 
+[2.666s] Installed /home/seeed/alohax_ws/build/alohax_hw_bridge
+[2.666s] running symlink_data
+[2.744s] Invoked command in '/home/seeed/alohax_ws/build/alohax_hw_bridge' returned '0': PYTHONPATH=/home/seeed/alohax_ws/build/alohax_hw_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seeed/alohax_ws/install/alohax_hw_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/seeed/alohax_ws/build/alohax_hw_bridge/build --no-deps symlink_data
