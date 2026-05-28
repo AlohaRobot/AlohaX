@@ -1,3 +1,6 @@
+![Uploading AlohaX卡通形象.png…]()
+
+
 # AlohaX Project
 
 Dual-arm mobile robot project based on ROS2 Humble.
