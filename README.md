@@ -295,3 +295,6 @@ Apache-2.0
 ## Maintainer
 
 Wang Feng (wf270@163.com)
+
+<img width="256" height="455" alt="AlohaX_缩小" src="https://github.com/user-attachments/assets/fac12c7e-4793-474e-9b72-c02f9ca9eee4" />
+
