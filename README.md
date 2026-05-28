@@ -1,6 +1,4 @@
-<img width="288" height="512" alt="AlohaX卡通形象" src="https://github.com/user-attachments/assets/d48bd012-34ad-4cd9-a554-8ec3920ee53b" />
-
-
+<img width="256" height="455" alt="AlohaX_缩小" src="https://github.com/user-attachments/assets/fac12c7e-4793-474e-9b72-c02f9ca9eee4" />
 
 # AlohaX Project
 
@@ -296,5 +294,8 @@ Apache-2.0
 
 Wang Feng (wf270@163.com)
 
-<img width="256" height="455" alt="AlohaX_缩小" src="https://github.com/user-attachments/assets/fac12c7e-4793-474e-9b72-c02f9ca9eee4" />
+
+<img width="288" height="512" alt="AlohaX卡通形象" src="https://github.com/user-attachments/assets/d48bd012-34ad-4cd9-a554-8ec3920ee53b" />
+<img width="240" height="427" alt="AlohaX3" src="https://github.com/user-attachments/assets/59f9c6cb-c103-424d-b821-b39f1a39cba5" />
+
 
