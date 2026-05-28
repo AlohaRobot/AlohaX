@@ -1,4 +1,5 @@
-![Uploading AlohaX卡通形象.png…]()
+<img width="288" height="512" alt="AlohaX卡通形象" src="https://github.com/user-attachments/assets/d48bd012-34ad-4cd9-a554-8ec3920ee53b" />
+
 
 
 # AlohaX Project
